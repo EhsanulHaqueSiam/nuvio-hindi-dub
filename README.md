@@ -7,3 +7,7 @@ metadata and stream addons handle the rest.
 Install: `https://ehsanulhaquesiam.github.io/nuvio-hindi-dub/manifest.json`
 
 Local build: `TMDB_API_KEY=... python3 build.py site`
+
+Also publishes two Nuvio plugin repositories (D3adlyRocket's scrapers by absolute URL):
+`https://ehsanulhaquesiam.github.io/nuvio-hindi-dub/plugins/hindi-fast/manifest.json` (Castle) and
+`https://ehsanulhaquesiam.github.io/nuvio-hindi-dub/plugins/hindi-anime-ott/manifest.json` (AnimeDekho, NetMirror).

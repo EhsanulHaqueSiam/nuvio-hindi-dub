@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 build.py site && touch site/.nojekyll
+      - run: python3 build.py site && python3 plugins.py site && touch site/.nojekyll
         env: { TMDB_API_KEY: "${{ secrets.TMDB_API_KEY }}" }
       - run: |
           cd site
