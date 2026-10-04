@@ -1,0 +1,21 @@
+# Rebuilds the catalog from the Hindi-dub lineup and force-pushes it to gh-pages, which GitHub Pages serves.
+# Weekly is enough: Crunchyroll adds Hindi dubs a few times a month.
+name: build
+on:
+  schedule: [{ cron: "0 3 * * 1" }]
+  workflow_dispatch:
+  push: { branches: [main] }
+permissions: { contents: write }
+concurrency: { group: build, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 build.py site && touch site/.nojekyll
+        env: { TMDB_API_KEY: "${{ secrets.TMDB_API_KEY }}" }
+      - run: |
+          cd site
+          git init -q -b gh-pages && git add -A
+          git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com commit -qm "catalog $(date -u +%F)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" gh-pages
