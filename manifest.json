@@ -1,0 +1,42 @@
+{
+ "id": "community.hindidub.anime",
+ "version": "1.0.20261005",
+ "name": "Hindi Dubbed Anime",
+ "description": "Anime with an official Crunchyroll Hindi dub, newest first.",
+ "resources": [
+  "catalog"
+ ],
+ "types": [
+  "series",
+  "movie"
+ ],
+ "idPrefixes": [
+  "tt",
+  "tmdb:"
+ ],
+ "catalogs": [
+  {
+   "type": "series",
+   "id": "hindi-dub-anime",
+   "name": "Hindi Dubbed Anime",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  },
+  {
+   "type": "movie",
+   "id": "hindi-dub-anime-movies",
+   "name": "Hindi Dubbed Anime Movies",
+   "extra": [
+    {
+     "name": "skip"
+    }
+   ]
+  }
+ ],
+ "behaviorHints": {
+  "configurable": false
+ }
+}

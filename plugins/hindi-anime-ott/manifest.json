@@ -1,0 +1,48 @@
+{
+ "name": "Hindi Anime + OTT",
+ "version": "1.0.0",
+ "scrapers": [
+  {
+   "id": "animedekho",
+   "name": "AnimeDekho",
+   "description": "AnimeDekho streaming anime series and movies with Hindi dub, multi-audio and high-speed multi-server support",
+   "version": "1.0.0",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/animedekho.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=animedekho.app&sz=128",
+   "contentLanguage": [
+    "hi",
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "netmirror",
+   "name": "NetMirror",
+   "description": "Streaming links from netmirror.",
+   "version": "1.0.10",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/netmirror.js",
+   "enabled": true,
+   "hasSettings": true,
+   "logo": "https://net22.cc/favicon.ico",
+   "contentLanguage": [
+    "en"
+   ],
+   "supportsExternalPlayer": false
+  }
+ ]
+}

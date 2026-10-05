@@ -1,0 +1,460 @@
+{
+ "name": "Nuvio Anime & Asian",
+ "version": "1.0.0",
+ "scrapers": [
+  {
+   "id": "adkami",
+   "name": "ADKami",
+   "description": "Animes VF et VOSTFR sur ADKami (sondage multi-variantes des pages épisode, lecteurs tiers vidmoly/dood/voe/byse/streamtape, offsets saisonniers TMDB).",
+   "version": "0.1.0",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/adkami.js",
+   "enabled": true,
+   "logo": "https://www.adkami.com/favicon.ico",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "allanime",
+   "name": "AllAnime",
+   "description": "AllAnime - Anime and Manga content streaming",
+   "version": "1.0.0",
+   "author": "",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/allanime.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/DwpqLJWV/allanime.png",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "allwish",
+   "name": "🌟 All-Wish",
+   "description": "All-Wish TV episodes via All-Wish servers",
+   "version": "1.0.1",
+   "author": "Kabir",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/allwish.js",
+   "enabled": true,
+   "hasSettings": true,
+   "limited": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/WpFW45WQ/allwish.png",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "anidb",
+   "name": "AniDB",
+   "description": "Subbed and dubbed anime from AniDB.",
+   "version": "1.0.0",
+   "author": "Nuvio Team (ChillPill)",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/anidb.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/rmMzZ45K/anidb.png",
+   "contentLanguage": [
+    "en",
+    "ja",
+    "ko"
+   ]
+  },
+  {
+   "id": "anikototv",
+   "name": "AnikotoTV",
+   "description": "Anime provider for AnikotoTV.to via Mapper API + Native Extractor",
+   "version": "1.0.5",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "anime"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/anikototv.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "mp4"
+   ],
+   "logo": "https://i.postimg.cc/JhL3HBR4/anikototv.png",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "animepahe",
+   "name": "AnimePahe",
+   "description": "Watch anime online free in HD with fast streaming servers. Stream latest anime episodes and movies daily",
+   "version": "1.0.1",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/animepahe.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "https://i.postimg.cc/c4ZBGNNs/animepahe.png",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "animesite",
+   "name": "AnimeSite",
+   "description": "Animes VF et VOSTFR sur AnimeSite (Next.js/RSC, API /api/stream/token par cookies de session, 5 lecteurs par épisode : Sibnet, Byse HLS, Sendvid ; validation saison/épisode via JSON-LD, catalogue complet via sitemap).",
+   "version": "0.1.1",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/animesite.js",
+   "enabled": true,
+   "logo": "https://animesite.fr/anime-site-icon.ico",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "animetsu",
+   "name": "Animetsu",
+   "description": "Lightning fast sub & dub anime streams via Animetsu",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "anime"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/animetsu.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/0Q3DvLx7/animetsu.png",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "anizone",
+   "name": "AniZone",
+   "description": "AniZone high-quality anime streaming with multi-audio and soft subtitles",
+   "version": "1.0.2",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/anizone.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://anizone.to/favicon.ico",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "dramafull",
+   "name": "DramaFull",
+   "description": "DramaFull provider for Nuvio. Specializes in Asian dramas.",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/dramafull.js",
+   "enabled": true,
+   "logo": "https://dramafull.cc/favicon.ico",
+   "contentLanguage": [
+    "en",
+    "ko",
+    "zh",
+    "ja"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "hianime",
+   "name": "HiAnime",
+   "description": "HiAnime multi-server anime streaming with real-time mapping and subtitles",
+   "version": "1.0.0",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/hianime.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/13SYJPTx/hianime.png",
+   "contentLanguage": [
+    "ja",
+    "en"
+   ]
+  },
+  {
+   "id": "jetanimes",
+   "name": "Jetanimes",
+   "description": "Animes VOSTFR sur Jetanimes (gros catalogue, ~25 000 épisodes, joueurs VidHide/Byse résolus nativement, sans crypto côté runtime).",
+   "version": "0.1.1",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/jetanimes.js",
+   "enabled": true,
+   "logo": "https://on.jetanimes.com/wp-content/uploads/2023/11/cropped-favicon-32x32-1.png",
+   "contentLanguage": [
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv"
+   ]
+  },
+  {
+   "id": "kisskh",
+   "name": "💋 Kisskh",
+   "description": "Streams Korean dramas and movies from onlykdrama.top",
+   "version": "1.0.0",
+   "author": "Michat88",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/kisskh.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/2yLnTzPP/kisskh.jpg",
+   "contentLanguage": [
+    "ko",
+    "ch",
+    "ja",
+    "th"
+   ]
+  },
+  {
+   "id": "kurage",
+   "name": "Kurage",
+   "description": "Kurage.live anime streaming with tRPC API and multi-server proxy support",
+   "version": "1.0.0",
+   "author": "Paregi12",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/kurage.js",
+   "enabled": true,
+   "hasSettings": true,
+   "resources": [
+    "stream"
+   ],
+   "formats": [
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/3N2V7pHc/kurage.png",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "onlykdrama",
+   "name": "🫰 OnlyKDrama",
+   "description": "Asian Drama",
+   "version": "1.0.0",
+   "author": "Moiz Ahmed + Codex",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/onlykdrama.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/dtX84Gqc/onlykdrama.jpg",
+   "contentLanguage": [
+    "ko"
+   ]
+  },
+  {
+   "id": "onyxia",
+   "name": "Onyxia.",
+   "description": "Animo • Sub/Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/api/v1/repos/eclipsia/nuvio-plugin/raw/providers/onyxia.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "praxiel",
+   "name": "Praxiel.",
+   "description": "Re:ANIME • Sub/Dub • Anime",
+   "version": "1.2.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/api/v1/repos/eclipsia/nuvio-plugin/raw/providers/praxiel.js",
+   "enabled": true,
+   "formats": [
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "senanimes",
+   "name": "SenAnimes",
+   "description": "Animes VF et VOSTFR sur SenAnimes (Next.js, 150 titres : séries multi-saisons + films, sources HLS/MP4 CDN maison, mapping des saisons via JSON-LD).",
+   "version": "0.1.0",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/senanimes.js",
+   "enabled": true,
+   "logo": "https://senanimes.com/icon.svg",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "voiranime-be",
+   "name": "VoiranimeBE",
+   "description": "Simulcast anime VOSTFR ultra-frais sur voiranime.be (One Piece, Bleach TYBW, Mushoku S3) — catalogue piloté par sitemap, lecteurs m3u8.",
+   "version": "0.1.0",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/voiranime-be.js",
+   "enabled": true,
+   "logo": "https://voiranime.be/wp-content/uploads/2024/01/favicon.png",
+   "contentLanguage": [
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv"
+   ]
+  },
+  {
+   "id": "zyrvael",
+   "name": "Zyrvael.",
+   "description": "Anikoto • Sub/Dub • Anime",
+   "version": "1.3.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/api/v1/repos/eclipsia/nuvio-plugin/raw/providers/zyrvael.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ],
+   "hasSettings": true
+  }
+ ]
+}
