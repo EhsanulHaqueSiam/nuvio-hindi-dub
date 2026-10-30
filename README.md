@@ -1,7 +1,8 @@
 # Hindi Dubbed Anime (Nuvio / Stremio catalog)
 
-Two catalog rows, newest Hindi release first: **Hindi Dubbed Anime** (series) and **Hindi Dubbed Anime Movies**.
-Built weekly from Anime Mirchi's Crunchyroll Hindi-dub lineup, matched on TMDB, emitted with IMDb ids so your
+Two catalog rows, newest Hindi release first: **Hindi Dubbed Anime** (series) and **Hindi Dubbed Anime Movies**,
+plus a fixed **Hindi Kids Classics** row (Doraemon, Shinchan, Ninja Hattori, Pokemon, Oggy, Ben 10, Beyblade, Kiteretsu;
+`KIDS` in `build.py`). Built weekly from Anime Mirchi's Crunchyroll Hindi-dub lineup, matched on TMDB, emitted with IMDb ids so your
 metadata and stream addons handle the rest.
 
 Install: `https://ehsanulhaquesiam.github.io/nuvio-hindi-dub/manifest.json`

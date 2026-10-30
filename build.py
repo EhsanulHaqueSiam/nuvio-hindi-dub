@@ -5,6 +5,9 @@ Source: Anime Mirchi's Crunchyroll Hindi-dub lineup table (one row per season/co
 Each row is reduced to its show, matched on TMDB (TMDB_API_KEY env), and emitted with its IMDb id (tmdb: id as
 fallback), so Nuvio pulls the real metadata and streams from the user's other addons.
 
+Also a fixed "Hindi Kids Classics" row (KIDS): shows dubbed in Hindi for Indian TV, each checked 2026-10-31 to have
+Hindi-audio releases on TorBox.
+
 Usage: TMDB_API_KEY=... build.py OUT_DIR
 """
 import concurrent.futures as cf
@@ -22,6 +25,8 @@ SOURCE = "https://animemirchi.com/complete-crunchyroll-hindi-dubbed-anime-list/"
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/130 Safari/537.36"}
 PAGE = 100
 KEY = os.environ["TMDB_API_KEY"]
+# TMDB tv ids, row order: Doraemon, Shinchan, Ninja Hattori, Pokemon, Oggy, Ben 10, Beyblade, Kiteretsu
+KIDS = [65733, 30623, 80885, 60572, 2777, 4686, 54728, 80609]
 
 
 def fetch(url):
@@ -70,6 +75,21 @@ def match(title):
     return None
 
 
+def kid(tid):
+    """Meta for one KIDS show, IMDb id when TMDB has one."""
+    r = tmdb(f"/tv/{tid}", append_to_response="external_ids")
+    return {
+        "id": r["external_ids"].get("imdb_id") or f"tmdb:{tid}",
+        "type": "series",
+        "name": r["name"],
+        "poster": f"https://image.tmdb.org/t/p/w342{r['poster_path']}" if r.get("poster_path") else None,
+        "background": f"https://image.tmdb.org/t/p/w1280{r['backdrop_path']}" if r.get("backdrop_path") else None,
+        "description": r.get("overview", ""),
+        "releaseInfo": "Hindi dub",
+        "genres": ["Kids", "Hindi Dub"],
+    }
+
+
 def main(out):
     latest = {}
     for title, day in rows():
@@ -93,13 +113,20 @@ def main(out):
             name = f"{cid}.json" if start == 0 else f"{cid}/skip={start}.json"
             (out / "catalog" / kind / name).write_text(json.dumps({"metas": metas[start:start + PAGE]}, ensure_ascii=False))
         print(f"{cid}: {len(metas)} titles")
+    with cf.ThreadPoolExecutor(8) as ex:
+        kids = [{k: v for k, v in m.items() if v} for m in ex.map(kid, KIDS)]
+    d = out / "catalog" / "series"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "hindi-kids-classics.json").write_text(json.dumps({"metas": kids}, ensure_ascii=False))
+    print(f"hindi-kids-classics: {len(kids)} titles")
     unmatched = sorted(b for b, m in found.items() if not m)
     print(f"unmatched {len(unmatched)}: {unmatched[:20]}")
     manifest = {
         "id": "community.hindidub.anime", "version": f"1.0.{datetime.date.today():%Y%m%d}",
-        "name": "Hindi Dubbed Anime", "description": "Anime with an official Crunchyroll Hindi dub, newest first.",
+        "name": "Hindi Dubbed Anime", "description": "Anime with an official Crunchyroll Hindi dub, newest first, plus Hindi-dubbed kids classics.",
         "resources": ["catalog"], "types": ["series", "movie"], "idPrefixes": ["tt", "tmdb:"],
-        "catalogs": [{"type": t, "id": c, "name": n, "extra": [{"name": "skip"}]} for t, c, n in catalogs],
+        "catalogs": [{"type": t, "id": c, "name": n, "extra": [{"name": "skip"}]} for t, c, n in catalogs]
+        + [{"type": "series", "id": "hindi-kids-classics", "name": "Hindi Kids Classics"}],
         "behaviorHints": {"configurable": False},
     }
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
