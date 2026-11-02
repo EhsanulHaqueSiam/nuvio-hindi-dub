@@ -1,0 +1,28 @@
+{
+ "name": "Hindi Fast (Castle)",
+ "version": "1.0.0",
+ "scrapers": [
+  {
+   "id": "castle",
+   "name": "🏰 Castle",
+   "description": "Multi Lang provider",
+   "version": "2.0.0",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/refs/heads/main/providers/castle.js",
+   "enabled": true,
+   "hasSettings": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/0NvGzFyK/castle.png",
+   "contentLanguage": [
+    "en"
+   ]
+  }
+ ]
+}
