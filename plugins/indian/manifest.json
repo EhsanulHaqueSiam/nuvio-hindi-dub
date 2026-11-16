@@ -1,0 +1,1244 @@
+{
+ "name": "Nuvio Indian",
+ "version": "1.0.0",
+ "scrapers": [
+  {
+   "id": "4khdhub",
+   "name": "4KHDHub",
+   "description": "4K HD movies & TV series via FSL/FSLv2/Worker direct links from 4khdhub.one",
+   "version": "1.0.1",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/4khdhub.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=4khdhub.one&sz=256",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "animelok",
+   "name": "Animelok",
+   "description": "Animelok provider for Nuvio (Anime in multiple languages)",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "tv",
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/animelok.js",
+   "enabled": true,
+   "logo": "https://animelok.to/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.5c53cc50.png&w=384&q=75",
+   "contentLanguage": [
+    "hi",
+    "ta",
+    "te",
+    "ml",
+    "en",
+    "ja"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "nuvio-bollyflix",
+   "name": "BollyFlix",
+   "description": "BollyFlix streaming with multiple qualities and languages (~7s)",
+   "version": "1.0",
+   "author": "raymondnoodles",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "anime"
+   ],
+   "filename": "https://raw.githubusercontent.com/hihihihihiiray/nuvio-plugins/main/providers/bollyflix.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "logo": "https://ruayamo.s-ul.eu/a5T2socz",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "ta",
+    "te",
+    "ja",
+    "pa",
+    "ml",
+    "ko"
+   ]
+  },
+  {
+   "id": "cinefreak",
+   "name": "CineFreak",
+   "description": "Direct MKV streams from cinefreak.nl",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/cinefreak.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "logo": "https://cinefreak.nl/wp-content/uploads/2024/08/cropped-cgk-192x192.png",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "cinemacity",
+   "name": "CinemaCity",
+   "description": "Multi Language Provider",
+   "version": "1.0.0",
+   "author": "Nuvio Team",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/mooncrown04/nuviotr/refs/heads/main/providers/cinemacity.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/XYjKhS3b/cinemacity.png",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "ar",
+    "tr"
+   ]
+  },
+  {
+   "id": "cinestream",
+   "name": "CineStream",
+   "description": "Multi Language Provider",
+   "version": "1.0.0",
+   "author": "Kabir",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/Hindi-Nuvio/main/providers/cinestream.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/0NhjWWqT/cinestream.png",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "bdix-cf",
+   "name": "Circle FTP.",
+   "description": "Circle • 1080p • Mainstream • Regional",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/bdix-cf.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "bn"
+   ]
+  },
+  {
+   "id": "Desicinemas",
+   "name": "Desicinemas",
+   "description": "Desicinemas Hindi/Punjabi/Bollywood movie site",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/desicinemas.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.imgur.com/F3WrxGV.png",
+   "contentLanguage": [
+    "hi",
+    "pa"
+   ]
+  },
+  {
+   "id": "DhakaFlix",
+   "name": "DhakaFlix",
+   "description": "Local FTP scraper for DhakaFlix (172.16.50.4). Covers Movies (all languages), TV Series (English + Korean), and Anime. Works only on local LAN.",
+   "version": "1.0.0",
+   "author": "Niloy Sarkar",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "anime"
+   ],
+   "filename": "https://raw.githubusercontent.com/Niloy-Sarker/nuvio-plugins/master/providers/dhakaflix.js",
+   "enabled": true,
+   "formats": [
+    "mkv"
+   ],
+   "logo": "http://172.16.50.4/index.html",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "bn",
+    "ko",
+    "ta",
+    "te"
+   ]
+  },
+  {
+   "id": "bdix-df",
+   "name": "DhakaFlix FTP.",
+   "description": "DhakaFlix • Up-to 2160p • Mainstream • Regional",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/bdix-df.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "bn"
+   ]
+  },
+  {
+   "id": "DudeFilms",
+   "name": "DudeFilms",
+   "description": "DudeFilms Hindi/Bollywood/South Indian movie & series site",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/dudefilms.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.imgur.com/BLZpHSI.png",
+   "contentLanguage": [
+    "hi",
+    "en"
+   ]
+  },
+  {
+   "id": "durnel",
+   "name": "Durnel.",
+   "description": "CTGMovies • 1080p • Mainstream • Regional",
+   "version": "3.2.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/durnel.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "bn",
+    "hi",
+    "ja",
+    "ko"
+   ]
+  },
+  {
+   "id": "fjoral",
+   "name": "Fjoral.",
+   "description": "GramCinema • Up-to 4k • Requires Setup",
+   "version": "1.2.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/fjoral.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "bdix-fh",
+   "name": "FlixHub FTP.",
+   "description": "FlixHub • 1080p • Mainstream • Regional",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/bdix-fh.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "bn"
+   ]
+  },
+  {
+   "id": "fyron",
+   "name": "Fyron.",
+   "description": "KissKH • K-Drama • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/fyron.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "zh",
+    "ko"
+   ]
+  },
+  {
+   "id": "gravix",
+   "name": "Gravix.",
+   "description": "AnimeWorld • Multi Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/gravix.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja",
+    "hi",
+    "te",
+    "ta"
+   ]
+  },
+  {
+   "id": "hdhub4u",
+   "name": "HDHub4u",
+   "description": "Indian & Hollywood movies/series from hdhub4u.cl via HubDrive→FSL",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/hdhub4u.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=hdhub4u.cl&sz=256",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "hdmovie2",
+   "name": "🎬 HDMovie2",
+   "description": "Bollywood & Hindi Dubbed Movies",
+   "version": "1.0.0",
+   "author": "Kabir",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/D3adlyRocket/Hindi-Nuvio/main/providers/hdmovie2.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://i.postimg.cc/bJnfnzHS/hdmovie2.png",
+   "contentLanguage": [
+    "hi",
+    "en"
+   ]
+  },
+  {
+   "id": "hexion",
+   "name": "Hexion.",
+   "description": "4kHdHub • Up-to 4k • Multi-lang",
+   "version": "1.5.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/hexion.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "hindmovie",
+   "name": "HindMovie",
+   "description": "Dual Audio Movies & Series from hindmovie.icu",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/hindmovie.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "https://hindmovie.icu/wp-content/themes/generate-pro/images/favicon.ico",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "Hindmoviez",
+   "name": "Hindmoviez",
+   "description": "Hindmoviez Hindi movie & web series site",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/hindmoviez.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "https://i.imgur.com/wo1GrMs.png",
+   "contentLanguage": [
+    "hi"
+   ]
+  },
+  {
+   "id": "ilvyrel",
+   "name": "Ilvyrel.",
+   "description": "ToonWorld4All • Multi Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/ilvyrel.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja",
+    "hi",
+    "te",
+    "ta"
+   ]
+  },
+  {
+   "id": "isaidub",
+   "name": "Isaidub",
+   "description": "Isaidub provider for Nuvio",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/isaidub.js",
+   "enabled": true,
+   "contentLanguage": [
+    "ta",
+    "en"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "jhaeros",
+   "name": "Jhaeros.",
+   "description": "MovieLinkBD • Up-to 2160p • Mainstream • Regional",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/jhaeros.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "ta",
+    "te"
+   ]
+  },
+  {
+   "id": "karnis",
+   "name": "Karnis.",
+   "description": "Castle • 1080p • Mainstream • Regional",
+   "version": "1.6.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/karnis.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ],
+   "disabledPlatforms": [
+    "ios"
+   ]
+  },
+  {
+   "id": "lyrin",
+   "name": "Lyrin.",
+   "description": "BanglaPlex • 1080p • Regional",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/lyrin.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "bn",
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "mavonyx",
+   "name": "Mavonyx.",
+   "description": "MovieBox • Up-to 4k • Multi Dub",
+   "version": "1.7.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/mavonyx.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mpd"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "bn"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "movies4u",
+   "name": "Movies4u",
+   "description": "Movies4u provider for Nuvio.",
+   "version": "1.0.1",
+   "author": "User",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/movies4u.js",
+   "enabled": true,
+   "contentLanguage": [
+    "en",
+    "ta",
+    "hi"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "moviesda",
+   "name": "Moviesda",
+   "description": "Moviesda provider for Nuvio.",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/moviesda.js",
+   "enabled": true,
+   "contentLanguage": [
+    "ta",
+    "en"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "moviesdrive",
+   "name": "MoviesDrive",
+   "description": "Hindi movies & series from new3.moviesdrives.my",
+   "version": "1.0.1",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/moviesdrive.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv"
+   ],
+   "logo": "https://new2.moviesdrives.my/wp-content/uploads/2026/01/cropped-Gemini_Generated_Image_qt93aqt93aqt93aq-1-180x180.png",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "movieshunt",
+   "name": "MoviesHunt",
+   "description": "Multi-audio movies from movieshunt.team via HubCloud/VCloud→FSL",
+   "version": "1.0.1",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/movieshunt.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=movieshunt.team&sz=256",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "ta",
+    "te"
+   ]
+  },
+  {
+   "id": "MoviesMod",
+   "name": "MoviesMod",
+   "description": "MoviesMod Hindi/English Bollywood & Hollywood movie & series site",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/moviesmod.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv"
+   ],
+   "logo": "https://i.imgur.com/r3kgM7K.png",
+   "contentLanguage": [
+    "hi",
+    "en"
+   ]
+  },
+  {
+   "id": "noctyx",
+   "name": "Noctyx.",
+   "description": "Toonix • Anime • Hindi",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/noctyx.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "nyxora",
+   "name": "Nyxora.",
+   "description": "VidFast • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/nyxora.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "bn"
+   ]
+  },
+  {
+   "id": "phraxis",
+   "name": "Phraxis.",
+   "description": "Play4u • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/phraxis.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "ta",
+    "te",
+    "ml",
+    "kn"
+   ],
+   "disabledPlatforms": [
+    "ios"
+   ]
+  },
+  {
+   "id": "pynvix",
+   "name": "Pynvix.",
+   "description": "ShowBox • Up-to 4k • Requires Setup",
+   "version": "1.8.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/pynvix.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "bn",
+    "hi",
+    "ja",
+    "pt",
+    "ar"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "qorva",
+   "name": "Qorva.",
+   "description": "KatWorld • 1080p • K-Drama",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/qorva.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "kr"
+   ]
+  },
+  {
+   "id": "quinox",
+   "name": "Quinox.",
+   "description": "VidNest • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/quinox.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "es",
+    "ja",
+    "hi",
+    "ta",
+    "te"
+   ]
+  },
+  {
+   "id": "qyrvaen",
+   "name": "Qyrvaen.",
+   "description": "Provider: HDHub4u | Multi-lang",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/qyrvaen.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "RogMovies",
+   "name": "RogMovies",
+   "description": "RogMovies Hindi/English movie & series site (Vegamovies-family backend)",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/rogmovies.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv"
+   ],
+   "logo": "https://i.imgur.com/1X5zglB.jpeg",
+   "contentLanguage": [
+    "hi",
+    "en"
+   ]
+  },
+  {
+   "id": "solunix",
+   "name": "Solunix.",
+   "description": "VegaMovies (HC & VC) • Up-to 4k • Mainstream",
+   "version": "1.4.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/solunix.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "soryn",
+   "name": "Soryn.",
+   "description": "Netmirror • 1080p • Mainstream • Regional",
+   "version": "3.4.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/soryn.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "svartok",
+   "name": "Svartok.",
+   "description": "CinemaCity • Multi Dub • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/svartok.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "bn",
+    "hi",
+    "cs",
+    "fr",
+    "de",
+    "hu",
+    "it",
+    "pl",
+    "pt",
+    "es",
+    "tr"
+   ]
+  },
+  {
+   "id": "tamilblasters",
+   "name": "Tamilblasters",
+   "description": "Tamilblasters provider for Nuvio.",
+   "version": "1.0.1",
+   "author": "User",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/tamilblasters.js",
+   "enabled": true,
+   "logo": "https://1tamilblasters.bz/uploads/monthly_2025_10/169356039_TBLwhitelogo.png.50e3c98229dab88b167074a68df15caf.png",
+   "contentLanguage": [
+    "ta",
+    "en"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "tamilian",
+   "name": "Tamilian",
+   "description": "Tamilian provider for Nuvio.",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/tamilian.js",
+   "enabled": true,
+   "contentLanguage": [
+    "ta",
+    "en"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "tamilmv",
+   "name": "TamilMV",
+   "description": "TamilMV provider for Nuvio.",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/tamilmv.js",
+   "enabled": true,
+   "logo": "https://www.1tamilmv.band/uploads/monthly_2025_02/logo.png.bcc33561bc1d7345f7c6237a80238992.png",
+   "contentLanguage": [
+    "ta",
+    "en"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "tyvrel",
+   "name": "Tyvrel.",
+   "description": "Nxsha • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/tyvrel.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "uhdmovies",
+   "name": "UHDMovies",
+   "description": "4K, 1080p Hollywood movies/series from uhdmovies.food via Google Drive",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/uhdmovies.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=uhdmovies.food&sz=256",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "vegamovies",
+   "name": "VegaMovies",
+   "description": "Indian & Hollywood movies/series from vegamovies.mq",
+   "version": "1.0.1",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/vegamovies.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://vegamovies.market&size=256",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ],
+   "limited": true
+  },
+  {
+   "id": "Vidrock",
+   "name": "Vidrock",
+   "description": "Vidrock TMDB-id-based movie & TV streaming across multiple servers with real quality and size",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/vidrock.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://i.imgur.com/RvXo4dk.png",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ]
+  },
+  {
+   "id": "vornix",
+   "name": "Vornix.",
+   "description": "MoviesDrive • Up-to 4k • Mainstream • Regional",
+   "version": "1.8.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/vornix.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "bn",
+    "hi",
+    "pt",
+    "ta",
+    "te"
+   ]
+  },
+  {
+   "id": "xdmovies",
+   "name": "XDmovies",
+   "description": "XDmovies provider for Nuvio (Movies and TV Shows)",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/xdmovies.js",
+   "enabled": true,
+   "logo": "https://xdmovies.site/assets/logo1.png",
+   "contentLanguage": [
+    "en",
+    "hi"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "zinkmovies",
+   "name": "ZinkMovies",
+   "description": "Movies & WebSeries from zinkmovies.monster (HDVB)",
+   "version": "1.0.1",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/zinkmovies.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "https://zinkmovies.monster/wp-content/uploads/2025/02/cropped-photo_5022038112150335812_x-192x192.jpg",
+   "contentLanguage": [
+    "en",
+    "hi",
+    "ta",
+    "te",
+    "bn"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,686 @@
+{
+ "name": "Nuvio English",
+ "version": "1.0.0",
+ "scrapers": [
+  {
+   "id": "biavox",
+   "name": "BiaVox",
+   "description": "Multi-lang movies from biavox.com",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/biavox.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=biavox.com&sz=256",
+   "contentLanguage": [
+    "en",
+    "fr"
+   ]
+  },
+  {
+   "id": "brellor",
+   "name": "Brellor.",
+   "description": "Internet Archive • Classic/Vintage",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/brellor.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "cinemm",
+   "name": "CineMM",
+   "description": "Direct MP4 streams from cinemm.com",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/cinemm.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=cinemm.com&sz=256",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "embedmovies",
+   "name": "EmbedMovies",
+   "description": "Filmes e séries, incluindo anime • Qualidade encontrada: até 720p • Áudio: dublado ou legendado.",
+   "version": "0.1.4",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/embedmovies.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "esvyl",
+   "name": "Esvyl.",
+   "description": "VidBolt • 1080p • Mainstream • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/esvyl.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "evyrith",
+   "name": "Evyrith.",
+   "description": "Vidrock • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/evyrith.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "fastrion",
+   "name": "Fastrion.",
+   "description": "MultiMovies • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/fastrion.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "fendrix",
+   "name": "Fendrix.",
+   "description": "Cinejoy • 1080p • Mainstream",
+   "version": "1.6.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/fendrix.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "haylox",
+   "name": "Haylox.",
+   "description": "Vidlink • 1080p • Mainstream",
+   "version": "2.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/haylox.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "hdfilme",
+   "name": "HDFilme",
+   "description": "German TV series & movies from hdfilme.win via meinecloud",
+   "version": "1.0.0",
+   "author": "krimek",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/hdfilme.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://hdfilme.win/templates/hdfilme/images/logo-hdfilme.svg",
+   "contentLanguage": [
+    "de"
+   ]
+  },
+  {
+   "id": "jyniq",
+   "name": "Jyniq.",
+   "description": "Wikimedia • Classic/Vintage",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/jyniq.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "kethrax",
+   "name": "Kethrax.",
+   "description": "VixSrc • Italian & English",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/kethrax.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "it"
+   ]
+  },
+  {
+   "id": "kisskh",
+   "name": "KissKH",
+   "description": "Asian dramas and movies from kisskh.nl with custom AES decryption",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/kisskh.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "https://kisskh.nl/assets/icons/icon-96x96.png",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "kryxalia",
+   "name": "Kryxalia.",
+   "description": "MoviesHunt • Up-to 4k • Mainstream • Regional",
+   "version": "1.5.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/kryxalia.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "lenyr",
+   "name": "Lenyr.",
+   "description": "AniZone • Multi Dub • Anime",
+   "version": "2.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/lenyr.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "jp"
+   ]
+  },
+  {
+   "id": "maelith",
+   "name": "Maelith.",
+   "description": "Mapple • Up-to 2160p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/maelith.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "megaembedapi",
+   "name": "MegaEmbedAPI",
+   "description": "Filmes • Qualidades encontradas: 360p e 720p • Áudio: dublado ou original, conforme o filme.",
+   "version": "0.1.6",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/megaembedapi.js",
+   "supportedTypes": [
+    "movie"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR"
+   ],
+   "formats": [
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "novus",
+   "name": "Novus.",
+   "description": "Dulo • Up-to 4k • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/novus.js",
+   "enabled": true,
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "peachify",
+   "name": "Peachify",
+   "description": "Streams from peachify.top",
+   "version": "1.0.1",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/peachify.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=peachify.top&sz=256",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "playimdb",
+   "name": "PlayIMDb",
+   "description": "Lightning fast streams from playimdb.com",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/playimdb.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://www.google.com/s2/favicons?domain=playimdb.com&sz=256",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "RiveStream",
+   "name": "RiveStream",
+   "description": "RiveStream TMDB-id-based movie & TV streaming across 13 backend services with real quality and size",
+   "version": "1.0.0",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/rivestream.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://PLACEHOLDER-UPLOAD-LOGO.example/rivestream.png",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "rynara",
+   "name": "Rynara",
+   "description": "Vidy • Up-to 4k • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/rynara.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "sylphera",
+   "name": "Sylphera.",
+   "description": "Dexter • Up-to 4K • Mainstream",
+   "version": "1.3.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/sylphera.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "VidCore",
+   "name": "VidCore",
+   "description": "VidCore TMDB-id-based movie & TV embed streaming across a multi-mirror pool with real quality and size",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/vidcore.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://i.imgur.com/c0tpWjk.png",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "Vidking",
+   "name": "Vidking",
+   "description": "Vidking TMDB-id-based movie & TV streaming with quality, estimated size and subtitles",
+   "version": "1.0.1",
+   "author": "CENSORED",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://codeberg.org/CENSORED/Nuvio-Plugin/raw/branch/main/providers/vidking.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://i.imgur.com/GBwpv4Y.png",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "vitrix",
+   "name": "Vitrix.",
+   "description": "AniLight • Sub/Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/vitrix.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "jp"
+   ]
+  },
+  {
+   "id": "vyranel",
+   "name": "Vyranel.",
+   "description": "AnimeCube • Donghua",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/vyranel.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  },
+  {
+   "id": "waelum",
+   "name": "Waelum.",
+   "description": "BingeBang • Mainstream • Up-to 4k",
+   "version": "1.3.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/waelum.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "wrenok",
+   "name": "Wrenok.",
+   "description": "Purstream • French & English",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/wrenok.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "fr"
+   ]
+  },
+  {
+   "id": "xandril",
+   "name": "Xandril.",
+   "description": "AniChan • Sub/Dub/HardSub • Anime",
+   "version": "1.5.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/xandril.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "m3u8",
+    "mpd"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "jp"
+   ]
+  },
+  {
+   "id": "xylos",
+   "name": "Xylos.",
+   "description": "AniKage • Sub/Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/xylos.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "jp"
+   ]
+  },
+  {
+   "id": "zevran",
+   "name": "Zevran.",
+   "description": "VAplayer  • 1080p • Mainstream",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "series"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/zevran.js",
+   "enabled": true,
+   "formats": [
+    "mp4",
+    "mkv",
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en"
+   ]
+  }
+ ]
+}

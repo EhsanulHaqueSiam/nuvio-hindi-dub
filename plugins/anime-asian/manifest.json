@@ -1,0 +1,912 @@
+{
+ "name": "Nuvio Anime & Asian",
+ "version": "1.0.0",
+ "scrapers": [
+  {
+   "id": "adkami",
+   "name": "ADKami",
+   "description": "Animes VF et VOSTFR sur ADKami (sondage multi-variantes des pages épisode, lecteurs tiers vidmoly/dood/voe/byse/streamtape, offsets saisonniers TMDB).",
+   "version": "0.1.2",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/adkami.js",
+   "enabled": true,
+   "logo": "https://www.adkami.com/favicon.ico",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "amyflix",
+   "name": "AmyFlix",
+   "description": "Séries e filmes asiáticos, incluindo GL • Qualidade encontrada: variável • Áudio: dublado ou legendado, conforme a opção disponível.",
+   "version": "0.1.14",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/amyflix.js",
+   "logo": "https://i.imgur.com/7MjSuHT.png",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "anibunker",
+   "name": "AniBunker",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.15",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/anibunker.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "anikototv",
+   "name": "AnikotoTV",
+   "description": "Anime provider for AnikotoTV.to",
+   "version": "1.0.5",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "anime"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/anikototv.js",
+   "enabled": true,
+   "formats": [
+    "mp4"
+   ],
+   "logo": "https://anikototv.to/favicon.ico",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "animefire",
+   "name": "AnimeFire",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.13",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animefire.js",
+   "logo": "https://i.imgur.com/bIt6zkA.png",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "animesdrive",
+   "name": "Animes Drive",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.4",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animesdrive.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "animesfhd",
+   "name": "AnimesFHD",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 1080p via HLS • Áudio: dublado ou legendado, conforme a versão.",
+   "version": "0.2.2",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animesfhd.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "animeshd",
+   "name": "Animes HD",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.4",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animeshd.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "animesite",
+   "name": "AnimeSite",
+   "description": "Animes VF et VOSTFR sur AnimeSite (Next.js/RSC, API /api/stream/token par cookies de session, 5 lecteurs par épisode : Sibnet, Byse HLS, Sendvid, Ansembed, Uqload ; langue détectée sur la page de chaque embed, validation saison/épisode via JSON-LD, catalogue complet via sitemap, repli titre FR via TMDB).",
+   "version": "0.2.0",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/animesite.js",
+   "enabled": true,
+   "logo": "https://animesite.fr/anime-site-icon.ico",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "animesonlineblue",
+   "name": "Animes Online Blue",
+   "description": "Anime (séries) • Qualidade encontrada: até 720p • Áudio: dublado ou legendado.",
+   "version": "0.1.3",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animesonlineblue.js",
+   "supportedTypes": [
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "animesonlinecloud",
+   "name": "Animes Online Cloud",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado, conforme o servidor.",
+   "version": "0.1.12",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animesonlinecloud.js",
+   "logo": "https://i.imgur.com/BjAOlx6.png",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "animetsu",
+   "name": "Animetsu",
+   "description": "Lightning fast sub & dub anime streams via Animetsu",
+   "version": "1.0.0",
+   "author": "piratezoro9",
+   "supportedTypes": [
+    "movie",
+    "tv",
+    "anime"
+   ],
+   "filename": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/animetsu.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "https://animetsu.live/favicon.ico",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "animy",
+   "name": "Animy",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado, conforme o arquivo.",
+   "version": "0.1.6",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/animy.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "anistream",
+   "name": "AniStream",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 1080p • Áudio: múltiplas faixas, conforme o arquivo.",
+   "version": "0.1.8",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/anistream.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mkv",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": false
+  },
+  {
+   "id": "anitube",
+   "name": "AniTube",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 1080p via HLS • Áudio: dublado ou legendado, conforme o título.",
+   "version": "0.1.2",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/anitube.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "aniverse",
+   "name": "Aniverse",
+   "description": "Animes VF et VOSTFR sur aniverse.fr (Next.js, HLS AES-128 CDN onefy, sous-titres FR VTT absolus, sub+dub interrogés en parallèle, anti-décalage épisodes : validation numérique + mapping par titres TMDB pour specials/OVA S0 et numérotations absolues type One Piece).",
+   "version": "0.3.0",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/aniverse.js",
+   "enabled": true,
+   "logo": "https://aniverse.fr/assets/icons/logo.png",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "formats": [
+    "m3u8"
+   ],
+   "limited": false,
+   "disabledPlatforms": [],
+   "supportsExternalPlayer": false
+  },
+  {
+   "id": "anizero",
+   "name": "AniZero",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 720p • Áudio: dublado ou legendado.",
+   "version": "0.1.7",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/anizero.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": false
+  },
+  {
+   "id": "anizone",
+   "name": "AniZone",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 1080p • Áudio: multiáudio, conforme o título.",
+   "version": "0.1.6",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/anizone.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "ja",
+    "pt-BR",
+    "en"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "berryanimes",
+   "name": "Berry Animes",
+   "description": "Anime (séries) • Qualidade encontrada: até 1080p • Áudio: multiáudio, conforme o episódio.",
+   "version": "0.1.7",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/berryanimes.js",
+   "supportedTypes": [
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja",
+    "en"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": false
+  },
+  {
+   "id": "dattebayobr",
+   "name": "Dattebayo BR",
+   "description": "Anime (séries e filmes) • Qualidades encontradas: 480p, 720p e 1080p • Áudio: dublado ou legendado, conforme o título.",
+   "version": "0.1.4",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/dattebayobr.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "donghuanosekai",
+   "name": "Donghua no Sekai",
+   "description": "Donghua e anime (séries e filmes) • Qualidade encontrada: variável • Áudio original, geralmente em chinês, com legendas quando disponíveis.",
+   "version": "0.1.16",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/donghuanosekai.js",
+   "logo": "https://i.imgur.com/B4nm4HJ.png",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "zh",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "doramogo",
+   "name": "Doramogo",
+   "description": "Doramas e filmes asiáticos • Qualidade encontrada: automática, conforme a fonte • Áudio: legendado ou dublado, conforme o título.",
+   "version": "0.1.6",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/doramogo.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ko",
+    "ja",
+    "zh"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "dramafull",
+   "name": "DramaFull",
+   "description": "DramaFull provider for Nuvio. Specializes in Asian dramas.",
+   "version": "1.0.0",
+   "author": "User",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/dramafull.js",
+   "enabled": true,
+   "logo": "https://dramafull.cc/favicon.ico",
+   "contentLanguage": [
+    "en",
+    "ko",
+    "zh",
+    "ja"
+   ],
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "homura",
+   "name": "Homura",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 720p • Áudio: dublado ou legendado, conforme a versão.",
+   "version": "0.2.2",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/homura.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls",
+    "dash"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "jetanimes",
+   "name": "Jetanimes",
+   "description": "Animes VOSTFR sur Jetanimes (gros catalogue, ~25 000 épisodes, joueurs VidHide/Byse résolus nativement, sans crypto côté runtime).",
+   "version": "0.2.0",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/jetanimes.js",
+   "enabled": true,
+   "logo": "https://on.jetanimes.com/wp-content/uploads/2023/11/cropped-favicon-32x32-1.png",
+   "contentLanguage": [
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv"
+   ]
+  },
+  {
+   "id": "onyxia",
+   "name": "Onyxia.",
+   "description": "Ani.Pm • Sub/Dub/HardSub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/onyxia.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "otakulogia",
+   "name": "Otakulogia",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.1",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/otakulogia.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "ozeris",
+   "name": "Ozeris.",
+   "description": "Anv • Sub/Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/ozeris.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "pifansubs",
+   "name": "PiFansubs",
+   "description": "Filmes, séries, doramas e conteúdo BL LGBT • Qualidade encontrada: variável (360p a 1080p) • Áudio original com legendas em português.",
+   "version": "0.1.2",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/pifansubs.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "contentLanguage": [
+    "pt-BR",
+    "th",
+    "ko",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true,
+   "enabled": true
+  },
+  {
+   "id": "pomfy",
+   "name": "Pomfy",
+   "description": "Filmes, séries e animes • Qualidade encontrada: até 1080p • Áudio: multiáudio (dublado e legendado), conforme a fonte.",
+   "version": "0.1.2",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/pomfy.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja",
+    "en"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "praxiel",
+   "name": "Praxiel.",
+   "description": "Re:ANIME • Sub/Dub • Anime",
+   "version": "1.2.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/praxiel.js",
+   "enabled": true,
+   "formats": [
+    "mkv"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ],
+   "hasSettings": true
+  },
+  {
+   "id": "redeflix",
+   "name": "RedeFlix API",
+   "description": "Filmes, séries, anime e doramas • Qualidade encontrada: variável • Áudio: dublado ou legendado, conforme o título.",
+   "version": "0.1.13",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/redeflix.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "rylvane",
+   "name": "Rylvane.",
+   "description": "WcoFlix • HardSub/Dub • Anime",
+   "version": "1.1.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/rylvane.js",
+   "enabled": true,
+   "formats": [
+    "m3u8"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ]
+  },
+  {
+   "id": "senanimes",
+   "name": "SenAnimes",
+   "description": "Animes VF et VOSTFR sur SenAnimes (Next.js, 150 titres : séries multi-saisons + films, sources HLS/MP4 CDN maison, mapping des saisons via JSON-LD). Depuis 2026-10 le site exige une vérification Cloudflare Turnstile côté serveur : plus aucune source n'est résolvable hors navigateur (le provider détecte le portail et sort immédiatement).",
+   "version": "0.1.3",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/senanimes.js",
+   "enabled": true,
+   "logo": "https://senanimes.com/icon.svg",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "superanimes",
+   "name": "Super Animes",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.15",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/superanimes.js",
+   "logo": "https://i.imgur.com/XUfXdbk.png",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "tomato",
+   "name": "Tomato",
+   "description": "Anime (séries e filmes) • Qualidades encontradas: 480p, 720p e 1080p • Áudio: dublado e legendado, conforme a temporada.",
+   "version": "0.2.1",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/tomato.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "mp4",
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "topanimes",
+   "name": "TopAnimes",
+   "description": "Anime (séries) • Qualidade encontrada: variável • Áudio: dublado ou legendado, conforme a opção disponível.",
+   "version": "0.1.16",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/topanimes.js",
+   "logo": "https://i.imgur.com/sfcToMU.png",
+   "supportedTypes": [
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "uniquestream",
+   "name": "UniqueStream",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: até 1080p • Áudio: dublado ou legendado, conforme o episódio.",
+   "version": "0.1.1",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/uniquestream.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja",
+    "en"
+   ],
+   "formats": [
+    "hls"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "voiranime-be",
+   "name": "VoiranimeBE",
+   "description": "Simulcast anime VOSTFR ultra-frais sur voiranime.be (One Piece, Bleach TYBW, Mushoku S3) — catalogue piloté par sitemap, lecteurs m3u8, repli VF, films.",
+   "version": "0.1.2",
+   "author": "Gowaru",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://raw.githubusercontent.com/Gowaru/gowaru-nuvio-providers/refs/heads/main/providers/voiranime-be.js",
+   "enabled": true,
+   "logo": "https://voiranime.be/wp-content/uploads/2024/01/favicon.png",
+   "contentLanguage": [
+    "fr",
+    "ja"
+   ],
+   "categories": [
+    "anime",
+    "tv",
+    "movies"
+   ]
+  },
+  {
+   "id": "yumefree",
+   "name": "YumeFree",
+   "description": "Anime (séries e filmes) • Qualidade encontrada: variável • Áudio: dublado ou legendado.",
+   "version": "0.1.1",
+   "filename": "https://raw.githubusercontent.com/kaminarizz/Kamirama-Plugin/main/providers/yumefree.js",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "enabled": true,
+   "contentLanguage": [
+    "pt-BR",
+    "ja"
+   ],
+   "formats": [
+    "hls",
+    "mp4"
+   ],
+   "hasSettings": true,
+   "supportsExternalPlayer": true
+  },
+  {
+   "id": "zyrvael",
+   "name": "Zyrvael.",
+   "description": "Anikoto • Sub/Dub • Anime",
+   "version": "1.3.0",
+   "author": "Eclipsia",
+   "supportedTypes": [
+    "movie",
+    "tv"
+   ],
+   "filename": "https://eclipsia.codeberg.page/nuvio-plugin/providers/zyrvael.js",
+   "enabled": true,
+   "formats": [
+    "m3u8",
+    "mp4"
+   ],
+   "logo": "",
+   "contentLanguage": [
+    "en",
+    "ja"
+   ],
+   "hasSettings": true
+  }
+ ]
+}
